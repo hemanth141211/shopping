@@ -1,0 +1,27 @@
+.parent { 
+    display: flex; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    width: 50%; 
+} 
+.child{ 
+    margin: 10px; 
+    font-weight: bold;
+    font-size: larger;
+}
+
+.x{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    background-color: black;
+    color:white;   
+    
+}
+
+.y{
+    margin: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
